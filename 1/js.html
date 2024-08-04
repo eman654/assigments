@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<style type="text/css">
+		button {
+			width: 200px;
+			padding: 10px;
+			background: #ff0000;
+			font-weight: bold;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+            font-size: 1.2em;
+		}
+		body {
+			font-size: 1.5em;
+			text-align: center;
+			background: #e5e5e5;
+			font-family: 'open sans', helvetica, sans-serif;
+		}
+		button:hover, button:active {
+			background: #e10000;
+			box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+		}
+		button:active {
+          font-size: 1.2em;
+		}
+		#save-btn {
+			background-color: #00ff00;
+			width: 200px;
+			padding: 10px;
+			font-weight: bold;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+            font-size: 1.2em;
+            margin-top: 15px;
+		}
+		#save-btn:hover, #save-btn:active {
+			box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+			background-color: #00e100;
+		}
+	</style>
+</head>
+<body>
+	<h1>people entered:</h1>
+	<h2 id="number">0</h2>
+	<button id="increment-btn" onclick="abc()">INCREMENT</button>
+	<div><button id="save-btn" onclick="save()">SAVE</button></div>
+	<p id="save-el">previous entries:</p>
+	<script type="text/javascript" src="js/script.js"></script>
+ 
+</body>
+</html>
